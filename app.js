@@ -5,7 +5,7 @@ var cn = process.env.ODBC_CONNECTION_STRING
 db.open(cn, function (err) {
   if (err) return console.log(err)
 
-  db.query('select 1', function (err, data) {
+  db.query('SELECT TOP 10 * FROM SalesLT.Customer', function (err, data) {
     if (err) console.log(err)
 
     console.log(data)

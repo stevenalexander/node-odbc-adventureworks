@@ -2,6 +2,8 @@
 
 This is a sample node application using node-odbc to connect to a MS SQL DB hosted in Azure (though should work for any MS SQL instance).
 
+Uses the [AdventureWorksLT 2014 sample DB](http://msftdbprodsamples.codeplex.com/releases/).
+
 Instructions for Mac.
 
 ## Requires
@@ -25,8 +27,6 @@ export NODE_ODBC_CONNECTIONSTRING=Driver={FreeTDS};Server=DB_SERVER_NAME.databas
 # Run application
 npm install
 npm start
-
-# Will console.out [ { '': 1 } ] after running SELECT 1
 ```
 
 FreeTDS driver config
