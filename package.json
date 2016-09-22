@@ -1,0 +1,11 @@
+{
+  "name": "node-odbc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "odbc": "^1.2.1"
+  }
+}
